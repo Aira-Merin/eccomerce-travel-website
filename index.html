@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Client Travel Website</title>
+    <title>Ecommerce Travel Website</title>
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
@@ -47,26 +47,7 @@
 </header>
 
 <!-- header section ends -->
-
-<!-- login form container  -->
-
-<div class="login-form-container">
-
-    <i class="fas fa-times" id="form-close"></i>
-
-    <form action="">
-        <h3>login</h3>
-        <input type="email" class="box" placeholder="enter your email">
-        <input type="password" class="box" placeholder="enter your password">
-        <input type="submit" value="login now" class="btn">
-        <input type="checkbox" id="remember">
-        <label for="remember">remember me</label>
-        <p>forget password? <a href="#">click here</a></p>
-        <p>don't have and account? <a href="#">register now</a></p>
-    </form>
-
-</div>
-
+      
 <!-- home section starts  -->
 
 <section class="home" id="home">
@@ -78,22 +59,21 @@
     </div>
 
     <div class="controls">
-        <span class="vid-btn active" data-src="images/vid-1jomalig.mp4"></span>
-        <span class="vid-btn" data-src="images/vid-2jomalig.mp4"></span>
-        <span class="vid-btn" data-src="images/vid-3jomalig.mp4"></span>
-        <span class="vid-btn" data-src="images/vid-4jomalig.mp4"></span>
-        <span class="vid-btn" data-src="images/vid-5jomalig.mp4"></span>
+        <span class="vid-btn active" data-src="assets/vid-1jomalig.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-2jomalig.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-3jomalig.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-4jomalig.mp4"></span>
+        <span class="vid-btn" data-src="assets/vid-5jomalig.mp4"></span>
     </div>
 
     <div class="video-container">
-        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        <video src="assets/vid-1.mp4" id="video-slider" loop autoplay muted></video>
     </div>
 
 </section>
 
 <!-- home section ends -->
-
-<!-- book section starts  -->
+<!-- book now section start -->
 
 <section class="book" id="book">
 
@@ -111,13 +91,25 @@
     <div class="row">
 
         <div class="image">
-            <img src="images/book-img.svg" alt="">
+            <img src="assets/book-img.svg" alt="">
         </div>
 
         <form action="">
             <div class="inputBox">
                 <h3>where to</h3>
                 <input type="text" placeholder="place name">
+            </div>
+             <div class="inputBox">
+                <h3>Name</h3>
+                <input type="text" placeholder="name of guests">
+            </div>
+            <div class="inputBox">
+                <h3>Contact</h3>
+                <input type="tel" placeholder="Contact number of guests">
+            </div>
+             <div class="inputBox">
+                <h3>Address</h3>
+                <input type="text" placeholder="address of guests">
             </div>
             <div class="inputBox">
                 <h3>how many</h3>
@@ -138,8 +130,8 @@
 
 </section>
 
-<!-- book section ends -->
-
+<!-- book now section ends -->
+   
 <!-- packages section starts  -->
 
 <section class="packages" id="packages">
@@ -158,10 +150,12 @@
     <div class="box-container">
 
         <div class="box">
-            <img src="images/p-1.jpg" alt="">
+            <img src="assets/bakhaw beach.jpg" alt="">
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <h3> <i class="fas fa-map-marker-alt"></i> Bakhaw Beach </h3>
+                <p>Camotes is one of Cebu's most famous tourist spots. 
+                   The prospect of a lengthy weekend escape on an island where nature's
+                   unspoilt splendor is constantly on show is alluring.</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -169,16 +163,18 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <div class="price"> ₱4,000.00 <span>₱8,000.00</span> </div>
                 <a href="#" class="btn">book now</a>
             </div>
         </div>
 
         <div class="box">
-            <img src="images/p-2.jpg" alt="">
+            <img src="assets/morong beach.jpg" alt="">
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <h3> <i class="fas fa-map-marker-alt"></i> Morong Beach </h3>
+                <p>Morong Beach is a popular tourist destination in Batanes for a variety of reasons. 
+                    The sand is much more evenly distributed here than on other beaches in the province. 
+                    The waves are also less fierce, making them suitable for swimming.</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -186,16 +182,18 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <div class="price"> ₱7,000.00 <span>₱10,000.00</span> </div>
                 <a href="#" class="btn">book now</a>
             </div>
         </div>
 
         <div class="box">
-            <img src="images/p-3.jpg" alt="">
+            <img src="assets/alegria beach.jpg" alt="">
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <h3> <i class="fas fa-map-marker-alt"></i> Alegria Beach </h3>
+                <p>The pristine beach and crystal blue sea at Siargao's Alegria Beach. The beach was lined with coconut palms.  
+                    Only a few locals hung out on the grass behind the beach, as there were no other tourists. 
+                    This beach has a lot of reef, but there is still enough water to swim in, which isn't often the case in Siargao.</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -203,16 +201,17 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <div class="price"> ₱5,144.59 <span>₱5,686.12</span> </div>
                 <a href="#" class="btn">book now</a>
             </div>
         </div>
 
         <div class="box">
-            <img src="images/p-4.jpg" alt="">
+            <img src="assets/subic beach.jpg" alt="">
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <h3> <i class="fas fa-map-marker-alt"></i> Subic Beach </h3>
+                <p>Subic Beach, in the Sorsogon hamlet of Matnog, is known for its crystal blue seas and pinkish fine sand, 
+                    attracting visitors from all over the country.</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -220,16 +219,16 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <div class="price"> ₱10,500.00 <span>₱11,551.00</span> </div>
                 <a href="#" class="btn">book now</a>
             </div>
         </div>
 
         <div class="box">
-            <img src="images/p-5.jpg" alt="">
+            <img src="assets/pink beach.jpg" alt="">
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <h3> <i class="fas fa-map-marker-alt"></i> Pink Beach </h3>
+                <p>The crushed red organ pipe coral that washes ashore on Santa Cruz Island has resulted in a stunning pink beach.</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -237,16 +236,17 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <div class="price"> ₱10,100.00 <span>₱11,220.00</span> </div>
                 <a href="#" class="btn">book now</a>
             </div>
         </div>
 
         <div class="box">
-            <img src="images/p-6.jpg" alt="">
+            <img src="assets/banol beach.jpg" alt="">
             <div class="content">
-                <h3> <i class="fas fa-map-marker-alt"></i> eypt </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+                <h3> <i class="fas fa-map-marker-alt"></i> Banol Beach </h3>
+                <p>Banol Beach is a small stretch of sandy white beach where lunch is usually served on Coron Island Hopping Tours.
+                     A public beach surrounded by a spectacular backdrop of limestone cliffs, similar to the beaches on Coron Island.</p>
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -254,7 +254,7 @@
                     <i class="fas fa-star"></i>
                     <i class="far fa-star"></i>
                 </div>
-                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <div class="price"> ₱6,500.00 <span>₱8,500.00</span> </div>
                 <a href="#" class="btn">book now</a>
             </div>
         </div>
@@ -285,32 +285,38 @@
         <div class="box">
             <i class="fas fa-hotel"></i>
             <h3>affordable hotels</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            <p>Hotels, that you can stay in at night, you can also book for any weeks you want to stay. affordable hotels will give you the best services with the affordable price.</p>
         </div>
         <div class="box">
             <i class="fas fa-utensils"></i>
             <h3>food and drinks</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            <p>We have different types of foods and drinks that you can eat and drink but the main food and the best is seafood with the companion of soda. Free foods catering for breakfast and for dinner.</p>
         </div>
         <div class="box">
             <i class="fas fa-bullhorn"></i>
-            <h3>safty guide</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            <h3>safety guide</h3>
+            <p>Be sure to look up the emergency services number for your destination, even before you get there. It's also a good idea to look up the number for your country's nearest embassy before you leave. 
+            Write them down or save them in your phone so you'll have quick access to them in the event of an emergency. Any solid resource of travel safety information will tell you that it's never a good idea 
+            to carry huge amounts of cash. Instead, open an account with an international bank or credit card company so you can use local ATMs. If you absolutely must withdraw large amounts of cash at once, 
+            leave the bulk of it locked up safely in your hotel or hostel and carry only what you'll need for the day. Before you leave let someone know your itinerary, and update them to any changes of plans.
+            Make a habit of checking in with a close friend or family member back home at the end of each day.</p>
         </div>
         <div class="box">
             <i class="fas fa-globe-asia"></i>
             <h3>around the world</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            <p>In this world, it has different types of beaches but this anonymous beach that can only be seen at Quezon province. it is vey rare to see that only few people known this place. Let's travel together in this rare place only here in the Philippines!  </p>
         </div>
         <div class="box">
             <i class="fas fa-plane"></i>
             <h3>fastest travel</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            <p>wherever you are from, you will get to this destination quickly and safely and you can be sure that you will get there smoothly!</p>
         </div>
         <div class="box">
             <i class="fas fa-hiking"></i>
             <h3>adventures</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore commodi earum, quis voluptate exercitationem ut minima itaque iusto ipsum corrupti!</p>
+            <p>Adventure travel is about possibility, discovery, and delight. The highlights of an adventure are often unplanned and can only be discovered by being open, smiling wide, and saying yes to opportunities, 
+            people, and places. Be respectful at all times, but be curious. Engage. Wear local garb. Be colorful. Go to the local market and make friends. Eat where the locals eat. Take part in local festivals. Capture
+            the essence of your experience and share it with others. Tell a story that inspires other people to travel and care about people and place.</p>
         </div>
 
     </div>
@@ -336,74 +342,74 @@
     <div class="box-container">
 
         <div class="box">
-            <img src="images/m-1.jpg" alt="">
+            <img src="assets/m-1.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>Clean Water</p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
-            <img src="images/m-2.jpg" alt="">
+            <img src="assets/m-2.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>Cottages that you can put all of your things</p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
-            <img src="images/m-3.jpg" alt="">
+            <img src="assets/m-3.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>Sunset view</p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
-            <img src="images/m-4.jpg" alt="">
+            <img src="assets/m-4.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>Enjoy with friends and family</p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
-            <img src="images/m-5.jpg" alt="">
+            <img src="assets/m-5.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>Loving the nature</p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
-            <img src="images/m-6.jpg" alt="">
+            <img src="assets/m-6.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>relaxing </p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
-            <img src="images/m-7.jpg" alt="">
+            <img src="assets/m-7.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>anti-stress</p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
-            <img src="images/m-8.jpg" alt="">
+            <img src="assets/m-8.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>chilling</p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
-            <img src="images/m-9.jpg" alt="">
+            <img src="assets/m-9.jpg" alt="">
             <div class="content">
                 <h3>amazing places</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+                <p>Adoring</p>
                 <a href="#" class="btn">see more</a>
             </div>
         </div>
@@ -413,7 +419,6 @@
 </section>
 
 <!-- gallery section ends -->
-
 <!-- review section starts  -->
 
 <section class="review" id="review">
@@ -495,9 +500,7 @@
 </section>
 
 <!-- review section ends -->
-
-<!-- contact section starts  -->
-
+<!-- contact section start -->
 <section class="contact" id="contact">
     
     <h1 class="heading">
@@ -513,7 +516,7 @@
     <div class="row">
 
         <div class="image">
-            <img src="images/contact-img.svg" alt="">
+            <img src="assets/contact-img.svg" alt="">
         </div>
 
         <form action="">
@@ -532,20 +535,18 @@
     </div>
     
 </section>
-
 <!-- contact section ends -->
-
 <!-- brand section  -->
 <section class="brand-container">
 
     <div class="swiper-container brand-slider">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="images/1.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/2.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/3.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/4.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/5.jpg" alt=""></div>
-            <div class="swiper-slide"><img src="images/6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="assets/6.jpg" alt=""></div>
         </div>
     </div>
 
@@ -559,14 +560,14 @@
 
         <div class="box">
             <h3>about us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quas magni pariatur est accusantium voluptas enim nemo facilis sit debitis.</p>
+            <p>This project contains the place of jomalig in Quezon. We want other people to know how incredible jomalig was, not many people know this island is, so we want to create this type of website to notice and to love this unknown beautiful place here in the Philippines. 
+               Travel is generally a pleasurable experience. It is a kind of activity, which almost all the people love. it is the best way to have fun and to enjoy with our friends and families. The beach is just an amazing place to be, just listening to the sound of the waves, 
+               feeling the cool breeze across our face and our feet emerging into the sand makes us feel so relaxed, peaceful and completely free as though they are in a magical place so calm and beautiful. It's JOMALIG BEACH, and the other beaches here in the philippines.</p>
         </div>
         <div class="box">
             <h3>branch locations</h3>
-            <a href="#">india</a>
-            <a href="#">USA</a>
-            <a href="#">japan</a>
-            <a href="#">france</a>
+            <a href="#">Philippines</a>
+            
         </div>
         <div class="box">
             <h3>quick links</h3>
